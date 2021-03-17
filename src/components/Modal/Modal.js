@@ -2,9 +2,11 @@ import React, { useState, useEffect } from 'react'
 import { createPortal } from 'react-dom'
 import usePortal from 'ui/utils/use-portal'
 import PropTypes from 'prop-types'
-import { Backdrop } from 'ui'
+
 import ModalWrapper from './ModalWrapper'
 import ModalContext from './ModalContext'
+
+import Backdrop from '../Backdrop'
 
 const Modal = ({ children, open, onClose, variant, ...props }) => {
   const portal = usePortal('modal')

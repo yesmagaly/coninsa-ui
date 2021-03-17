@@ -1,7 +1,8 @@
 import React, { useContext } from 'react'
 import PropTypes from 'prop-types'
 import { Box } from 'theme-ui'
-import { Icon } from 'ui'
+
+import Icon from '../Icon'
 import ModalContext from './ModalContext'
 
 const ModalHeader = ({ children, variant, ...props }) => {

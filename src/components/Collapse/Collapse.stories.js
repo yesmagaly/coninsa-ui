@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box } from 'theme-ui'
-import { Card, Divider } from 'ui'
+import Card from '../Card'
+import Divider from '../Divider'
 import Collapse from '.'
 
 export default {

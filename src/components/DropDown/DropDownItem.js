@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Icon } from 'ui'
 import { Box } from 'theme-ui'
+
+import Icon from '../Icon'
 
 function DropDownItem({ children, main, variant, ...props }) {
   const dropDownItemStyles = {

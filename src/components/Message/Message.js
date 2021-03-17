@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Box } from 'theme-ui'
 
-import { Icon } from 'ui'
+import Icon from '../Icon'
 
 const Message = React.forwardRef(({ children, icon, html, ...props }, ref) => {
   const baseStyles = {

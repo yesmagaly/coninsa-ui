@@ -3,7 +3,7 @@ import { Box } from 'theme-ui'
 import PropTypes from 'prop-types'
 
 import { NavLink } from 'react-router-dom'
-import { Icon } from 'ui'
+import Icon from '../Icon'
 
 const SidebarLink = ({ children, icon, title, ...props }) => {
   const baseStyles = {
