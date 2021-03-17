@@ -5,6 +5,8 @@ import { Box } from 'theme-ui'
 import { RiArrowDownSLine, RiArrowUpSLine } from 'react-icons/ri'
 import {
   FaChevronDown,
+  FaChevronLeft,
+  FaChevronRight,
   FaDownload,
   FaHome,
   FaPlus,
@@ -103,16 +105,18 @@ const iconMaps = {
   'user-friend': UserFriendsIcon,
   handshake: HandshakeIcon,
 
-  'fa-phone': FaPhone,
-  'fa-users': FaUsers,
   'fa-boxes': FaBoxes,
   'fa-calendar': FaCalendarAlt,
-  'fa-lightbulb': FaLightbulb,
   'fa-chart-bar': FaChartBar,
-  'fa-whatsapp': FaWhatsapp,
-  'fa-tools': FaTools,
+  'fa-chevron-left': FaChevronLeft,
+  'fa-chevron-right': FaChevronRight,
   'fa-home': FaHome,
+  'fa-lightbulb': FaLightbulb,
+  'fa-phone': FaPhone,
+  'fa-users': FaUsers,
   'fa-search': FaSearch,
+  'fa-tools': FaTools,
+  'fa-whatsapp': FaWhatsapp,
 
   'fi-plus-circle': FiPlusCircle,
   'fi-minus-circle': FiMinusCircle,
